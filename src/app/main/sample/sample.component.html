@@ -1,0 +1,11 @@
+<div class="page-layout blank p-24" fusePerfectScrollbar>
+
+    <h2>{{'SAMPLE.HELLO' | translate}}</h2>
+
+    <ul>
+        <li class="text" *ngFor="let engineer of engineers | async">
+            {{engineer.name}} - {{engineer.salary}}
+        </li>
+    </ul>
+
+</div>
